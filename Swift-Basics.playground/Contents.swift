@@ -1,5 +1,4 @@
 // Basic Swift syntax
-import UIKit
 var firstVariable = "the variable is declared"
 firstVariable = "the variable is changed"
 var secondVariable: Int = 8
@@ -79,3 +78,38 @@ var floatingPointHexadecimalLiteral = 0xFp2 // 15 * 2^2 = 60
 var paddedNumber = 000658.476
 var oneBillion = 1_000_000_000
 let aBigNumber = 1_373_364_485_758
+// Bool type and if - else
+let theWeatherIsHot = true
+let theWeatherIsCold = false
+if theWeatherIsHot == true {
+    print("Take your hat")
+} else {
+    print("Take your coat")
+}
+let s = 1
+if s == 1 {
+    print("Yes")
+} else if s == 0 {
+    print("zero")
+} else {
+    print("No")
+}
+/*
+ Summary
+ var, let, if, else
+ Data types: Int 8-64, UInt 8-64, Float, Double, Bool, String
+ +, - , *, /, %, ==
+*/
+// Кортежи - TUPLES
+// groups different types into one sentence. For example - a server response.
+let http200Response = (200, "OK") // has indexes beginning with 0
+let (statusCode, statusMessage) = http200Response
+// upper sentence breaks the tuple into usual vars and lets for further usage
+// or we can decompose for only one value and ignore others:
+let http404Response = (404, "Page not found")
+let (_, onlyTheStatusMessage) = http404Response
+print("The status message for status code 404 is \(onlyTheStatusMessage)")
+print ("For the status code \(statusCode) the message is\(statusMessage)")
+// to ignore others, use indexes 0+
+print ("\(http404Response.0)")
+
