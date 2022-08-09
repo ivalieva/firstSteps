@@ -9,6 +9,16 @@ and here https://swiftbook.ru/content/languageguide/basics/ (RU)
 
 Files content
 
+Swift-basics.playground:
+- variables, constants, data types (String, Int, Float, Double, UInt, min-max for UInt ant Int)
+- comments
+- String interpolation
+- Basic operators for numbers
+- Operations with strings (+)
+- typealias
+- Boolean data type and if - else
+- some tuples
+
 08-08-22-basics-part2.playgroud:
 - strings
 - operators +=, -=
