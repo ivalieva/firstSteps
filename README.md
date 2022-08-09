@@ -19,6 +19,15 @@ Swift-basics.playground:
 - Boolean data type and if - else
 - some tuples
 
+Ian-Solomein-lessons.playground :
+- 1. Variables and Constants
+- zone of view for var
+- 2. Types: String and Integer, min and max
+- Contotination - summarizing strings
+- String Interpolation
+- 3. Basic operators
+- %, +=, -= operators
+
 08-08-22-basics-part2.playgroud:
 - strings
 - operators +=, -=
