@@ -1,0 +1,12 @@
+/*
+Structures and Classes
+Comparing Structures and Classes
+Definition Syntax
+Structure and Class Instances
+Accessing Properties
+Memberwise Initializers for Structure Types
+Structures and Enumerations Are Value Types
+Classes Are Reference Types
+Identity Operators
+Pointers
+*/
